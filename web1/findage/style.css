@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+div{
+    height:fit-content;
+    width: 300px;
+    max-width: auto;
+    background-color: rgb(190, 235, 10,0.5);
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 2px 2px 20px black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+h1{
+    color: rgb(0, 255, 170);
+    margin-top: 10px;
+}
+label{
+    font-size: larger;
+    
+}
+#DoB{
+ 
+  margin-top: 10px;
+  border: 2px solid rgb(6, 250, 35);
+  border-radius: 10px;
+  background-color: rgba(183, 200, 200, 0);
+  color: black;
+
+}
+#age{
+    background-color: rgb(9, 255, 0);
+    color: rgb(0, 0, 0);
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 100px;
+    margin-top: 20px;
+    
+}
+#DoB:hover{
+    transform: scale(1.1);
+}
+#age:hover{
+    transform: scale(1.1);
+}
+#age:active{
+    background-color: rgb(52, 242, 0);
+}
